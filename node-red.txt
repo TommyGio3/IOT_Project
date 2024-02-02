@@ -1,0 +1,312 @@
+[
+    {
+        "id": "57ea9767.92a3c",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "8a9a8a88.ca1ed",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "2a9f8d4.c664ef2",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "",
+        "broker": "",
+        "port": "1883",
+        "clientid": "",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "92d0338e.f2208",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "thingspeak",
+        "broker": "mqtt3.thingspeak.com",
+        "port": "1883",
+        "clientid": "FDwnDQsxLhQJGQgUDioBERo",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "deb8d118.4331e",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Iot lab",
+        "broker": "mqtt3.thingspeak.com",
+        "port": "1883",
+        "clientid": "OTEiKwcEGzobDD0gFgI7MjE",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "d3fa694e.2660b",
+        "type": "mqtt-broker",
+        "z": "",
+        "name": "Thingspeak",
+        "broker": "mqtt3.thingspeak.com",
+        "port": "1883",
+        "clientid": "IgoUHzUUOwQGGRE0Cz07MBU",
+        "usetls": false,
+        "compatmode": true,
+        "keepalive": "60",
+        "cleansession": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthPayload": "",
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": ""
+    },
+    {
+        "id": "f1a4c78b.7cfa88",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "44fcb118.b2e1b",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "f1a4c78b.7cfa88",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "1c37182.403efe8",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "834b0efe.afccd",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "1c37182.403efe8",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "c1a77c6e.8eb558",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard"
+    },
+    {
+        "id": "5c4012dd.5a4384",
+        "type": "ui_group",
+        "z": "",
+        "name": "Default",
+        "tab": "c1a77c6e.8eb558",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "49c79b0c.910554",
+        "type": "ui_group",
+        "z": "",
+        "name": "Last",
+        "tab": "f1a4c78b.7cfa88",
+        "disp": true,
+        "width": "6",
+        "collapse": false
+    },
+    {
+        "id": "bd403245.0c8f38",
+        "type": "tcp in",
+        "z": "57ea9767.92a3c",
+        "name": "",
+        "server": "client",
+        "host": "localhost",
+        "port": "60000",
+        "datamode": "stream",
+        "datatype": "utf8",
+        "newline": "\\n",
+        "topic": "",
+        "base64": false,
+        "x": 220,
+        "y": 300,
+        "wires": [
+            [
+                "b7e65db.c5aff2"
+            ]
+        ]
+    },
+    {
+        "id": "39b42a59.808116",
+        "type": "debug",
+        "z": "57ea9767.92a3c",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "x": 780,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "b7e65db.c5aff2",
+        "type": "function",
+        "z": "57ea9767.92a3c",
+        "name": "split",
+        "func": "msg.topic=\"channels/\"+2203093+\"/publish\";\nvar partsArray = msg.payload.split(',');\nif(partsArray[0] == 0){\n    msg.payload=\"field1=\"+partsArray[1]+\"&STATUS=MQTTPUBLISH\";\n}\nif(partsArray[0] == 1){\n    msg.payload=\"field2=\"+partsArray[1]+\"&STATUS=MQTTPUBLISH\";\n}\nif(partsArray[0] == 2){\n    msg.payload=\"field3=\"+partsArray[1]+\"&STATUS=MQTTPUBLISH\";\n}\n\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 470,
+        "y": 300,
+        "wires": [
+            [
+                "39b42a59.808116",
+                "1f349abc.8f8dad"
+            ]
+        ]
+    },
+    {
+        "id": "1f349abc.8f8dad",
+        "type": "mqtt out",
+        "z": "57ea9767.92a3c",
+        "name": "",
+        "topic": "",
+        "qos": "0",
+        "retain": "",
+        "broker": "d3fa694e.2660b",
+        "x": 780,
+        "y": 320,
+        "wires": []
+    }
+]
